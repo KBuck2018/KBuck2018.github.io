@@ -20,7 +20,8 @@ header nav a {
     text-decoration: none;
 }
 
-header h5 a{
+header h5 nav a{
     color: white;
     text-decoration: none;
+    flex-direction: row;
 }

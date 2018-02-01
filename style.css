@@ -1,5 +1,6 @@
 body {
-    background: black;
+    background:#828282;
+    ;
 }
 
 header {
@@ -15,6 +16,11 @@ header h1 {
     color: white;
 }
 header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+header h5 a{
     color: white;
     text-decoration: none;
 }

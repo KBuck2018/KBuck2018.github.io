@@ -1,6 +1,5 @@
 body {
     background:#828282;
-    ;
 }
 
 header {
@@ -23,5 +22,5 @@ header nav a {
 header h5 nav a{
     color: white;
     text-decoration: none;
-    flex-direction: row;
+    flex-direction: column;
 }

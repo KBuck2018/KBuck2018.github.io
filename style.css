@@ -1,26 +1,33 @@
 body {
-    background:#828282;
+  background: #828282;
+  text-align: center;
 }
 
+.project {
+  height: 150px;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
 header {
-    min-height: 100vh;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  margin-top: 30px;
 }
 
-header h1 {
-    color: white;
+.main .image {
+  margin: 40px auto;
+  display: flex;
 }
-header nav a {
-    color: white;
-    text-decoration: none;
+.more {
+  float: left;
+}
+#portfolio a img {
+  text-align: center;
+  justify-content: left;
 }
 
-header h5 nav a{
-    color: white;
-    text-decoration: none;
-    flex-direction: column;
+h3 {
+  text-align: left;
 }

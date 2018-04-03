@@ -12,36 +12,82 @@
 </head>
 
 <body>
-    <header>
-        <h1>Kevins Portfolio</h1>
-        <nav>
-            <div class="w3-bar w3-light-grey">
-                <a href="index.html" class="w3-bar-item w3-button">Home</a>
-                <a href="portfolio.html" class="w3-bar-item w3-button">Portfolio</a>
-                <a href="https://drive.google.com/open?id=1aIbBdbxmWPGv5Vl-kX51MSZHr-WbpC0S" class="w3-bar-item w3-button">Resume</a>
-                <a href="blog.html" class="w3-bar-item w3-button">Blog</a>
-                <div class="w3-dropdown-hover">
-                    <button class="w3-button">Contact</button>
-                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                        <a href="mailto:Kevin.Buckley2013@gmail.com" class="w3-bar-item w3-button">Email</a>
-                        <a href="https://linkedin.com/in/kevin-buckley-351b856b" class="w3-bar-item w3-button">LinkedIn</a>
-                        <a href="https://github.com/KBuck2018" class="w3-bar-item w3-button">GitHub</a>
-                    </div>
+
+    <nav>
+        <div class="w3-bar w3-light-grey">
+            <a href="#about" class="w3-bar-item w3-button">Home</a>
+            <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
+            <a href="https://drive.google.com/open?id=1aIbBdbxmWPGv5Vl-kX51MSZHr-WbpC0S" class="w3-bar-item w3-button">Resume</a>
+            <a href="#blog" class="w3-bar-item w3-button">Blog</a>
+            <div class="w3-dropdown-hover">
+                <button class="w3-button">Contact</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="mailto:Kevin.Buckley2013@gmail.com" class="w3-bar-item w3-button">Email</a>
+                    <a href="https://linkedin.com/in/kevin-buckley-351b856b" class="w3-bar-item w3-button">LinkedIn</a>
+                    <a href="https://github.com/KBuck2018" class="w3-bar-item w3-button">GitHub</a>
                 </div>
             </div>
-        </nav>
+        </div>
+    </nav>
+    <header>
+        <h1>Kevins Portfolio</h1>
     </header>
-
-    <div class="centerIt">
+    <section id="about">
         <img src="Kevinphoto.jpg" alt="A photo of me">
         <div class="about">
             <p>
-                Hey! My name is Kevin, thanks for stopping by. I'm a student at General Assembly who is focusing on full-stack software engineering.
-                I love dog's, going on adventures, and trying to solve the worlds problems one solution at a time. If you
-                like what you see so far, click on my home page and reach out via my links.
+                Hey! My name is Kevin, thanks for stopping by. I'm currently on my way to becoming a Software Engineer through General Assemblies
+                program. I'm an avid rock climber and outgoing individual. I bring that same passion for rock climbing and
+                apply it to my programming, knowing full well that no problem can and should be solved the same way as before,
+                I enjoy taking a different approach each time and finding out the most efficient wayto do things.
             </p>
         </div>
-    </div>
+    </section>
+    </br>
+    </br>
+    <section id="portfolio">
+        <h1>Welcome to my portfolio!</h1>
+
+        <div class="main">
+            <span>
+                <div>
+                    <p style="font-weight: bold; font-size: 20px;">Jeopardy</p>
+                    <div class="image">
+                        <a href="https://kbuck2018.github.io/jeopardy/">
+                            <img class="project" src="Jeopardy.png" alt="Photo of Jeopardy Game">
+                        </a>
+                    </div>
+                    <button class="more" onclick="myFunction()">Tell Me More</button>
+                    <p id="demo"></p>
+                    <p id="description"></p>
+                </div>
+            </span>
+            </br>
+            </br>
+            <span>
+                <div>
+                    <p style="font-weight: bold; font-size: 20px;">RecipeApp</p>
+                    <div class="image">
+                        <a href="https://shielded-mountain-12112.herokuapp.com/">
+                            <img class="project" src="RecipeApp.png" alt="Photo of RecipeApp">
+                        </a>
+                    </div>
+                    <button class="more" onclick="myFunctionRecipe()">Tell Me More</button>
+                    <p id="demo"></p>
+                    <p id="description2"></p>
+                </div>
+            </span>
+            <script src="portfolio.js"></script>
+    </section>
+    <section id="blog">
+        <div class="w3-container">
+            </br>
+            </br>
+            <h1>Blog</h1>
+            <h3>HTML/CSS</h3>
+
+        </div>
+    </section>
 </body>
 
 </html>

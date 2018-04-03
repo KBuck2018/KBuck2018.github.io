@@ -1,6 +1,7 @@
 body {
-  background: #828282;
+  background: #002447;
   text-align: center;
+  color: #fffaf7;
 }
 
 .project {
@@ -30,4 +31,8 @@ header {
 
 h3 {
   text-align: left;
+}
+
+.w3-bar {
+  background-color: #79c5e7;
 }

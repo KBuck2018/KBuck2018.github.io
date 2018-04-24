@@ -1,7 +1,7 @@
 body {
   text-align: center;
 }
-main {
+.main {
   min-height: 40vh;
   margin: 40px auto;
   display: flex;

@@ -8,3 +8,15 @@ function myFunctionRecipe() {
     "#description2"
   ).innerHTML = `Please check out my youtube video describing the project. <a href="https://youtu.be/7AHmtj81FbQ">Youtube</a>`;
 }
+
+function myFunctionCoffee() {
+  document.querySelector(
+    "#description3"
+  ).innerHTML = `This was a group project in which we used Git Flow and created a full stack MERN App`;
+}
+
+function myFunctionRoutes() {
+  document.querySelector(
+    "#description4"
+  ).innerHTML = `This was my final project at GA, I was able to merge React-Leaflet and React together to display Rock Climbing API, with mapquest API to display directions to the outdoor climb`;
+}

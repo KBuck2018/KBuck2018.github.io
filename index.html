@@ -5,113 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Kevin's Portfolio</title>
+    <title>Kevins Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="about_style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-    <header>
-        <h1>Kevins Portfolio</h1>
-
-    </header>
-    <nav>
-        <div class="w3-bar">
-            <a href="#about" class="w3-bar-item w3-button">Home</a>
-            <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
-            <a href="https://drive.google.com/open?id=1tbjmEtFiqPndua7xja213MdhSJ9vqStn" class="w3-bar-item w3-button">Resume</a>
-            <div class="w3-dropdown-hover">
-                <button class="w3-button">Contact</button>
-                <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                    <a href="mailto:Kevin.Buckley2013@gmail.com" class="w3-bar-item w3-button">Email</a>
-                    <a href="https://linkedin.com/in/kevin-buckley-351b856b" class="w3-bar-item w3-button">LinkedIn</a>
-                    <a href="https://github.com/KBuck2018" class="w3-bar-item w3-button">GitHub</a>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div class="clouds">
+        <div class="border">
+            <div class="businesscard">
+                <h1>KEVIN BUCKLEY</h1>
+                <div class="anchor">
+                    <a href="about.html">{Bio}</a>
+                    <a href="portfolio.html">{Portfolio}</a>
+                    <a href="https://drive.google.com/open?id=1tbjmEtFiqPndua7xja213MdhSJ9vqStn">{Resume}</a>
+                    <a href="mailto:Kevin.Buckley2013@gmail.com">{Email}</a>
+                    <a href="https://linkedin.com/in/kevin-buckley-351b856b">{LinkedIn}</a>
+                    <a href="https://github.com/KBuck2018">{GitHub}</a>
                 </div>
             </div>
         </div>
-    </nav>
 
-    <section id="about">
-        <img class="myPhoto" src="Kevinphoto.jpg" alt="A photo of me">
-        <div class="about">
-            <p>
-                Hey! My name is Kevin, thanks for stopping by. I'm currently on my way to becoming a Software Engineer through General Assemblies
-                program. I'm an avid rock climber and outgoing individual. I bring that same passion for rock climbing and
-                apply it to my programming, knowing full well that no problem can and should be solved the same way as before,
-                I enjoy taking a different approach each time and finding out the most efficient wayto do things.
-            </p>
+        <div class="text">
+            <p>Test</p>
         </div>
-    </section>
-    </br>
-    </br>
-    <section id="portfolio">
-        <h1>Welcome to my portfolio!</h1>
-
-        <div class="main">
-            <span>
-                <div>
-                    <p style="font-weight: bold; font-size: 20px;">Jeopardy</p>
-                    <div class="image">
-                        <a href="https://kbuck2018.github.io/jeopardy/">
-                            <img class="project" src="Jeopardy.png" alt="Photo of Jeopardy Game">
-                        </a>
-                    </div>
-                    <button class="more" onclick="myFunction()">Tell Me More</button>
-                    <p id="demo"></p>
-                    <p id="description"></p>
-                </div>
-            </span>
-            </br>
-            </br>
-            <span>
-                <div>
-                    <p style="font-weight: bold; font-size: 20px;">RecipeApp</p>
-                    <div class="image">
-                        <a href="https://shielded-mountain-12112.herokuapp.com/">
-                            <img class="project" src="RecipeApp.png" alt="Photo of RecipeApp">
-                        </a>
-                    </div>
-                    <button class="more" onclick="myFunctionRecipe()">Tell Me More</button>
-                    <p id="demo"></p>
-                    <p id="description2"></p>
-                </div>
-            </span>
-
+        <div class="text2">
+            <p>Test</p>
         </div>
-        <div class="main">
-            </br>
-            </br>
-            <span>
-                <div>
-                    <p style="font-weight: bold; font-size: 20px;">Coffee Runs Through Me</p>
-                    <div class="image">
-                        <a href="http://woozy-answer.surge.sh/main">
-                            <img class="project" src="CoffeeRuns.png" alt="Photo of CoffeeApp">
-                        </a>
-                    </div>
-                    <button class="more" onclick="myFunctionCoffee()">Tell Me More</button>
-                    <p id="demo"></p>
-                    <p id="description3"></p>
-                </div>
-            </span>
-            </br>
-            </br>
-            <span>
-                <div>
-                    <p style="font-weight: bold; font-size: 20px;">I Like Big Routes</p>
-                    <div class="image">
-                        <a href="http://ilikebigroutes.surge.sh/main">
-                            <img class="project" src="Routes.png" alt="Photo of RoutesApp">
-                        </a>
-                    </div>
-                    <button class="more" onclick="myFunctionRoutes()">Tell Me More</button>
-                    <p id="demo"></p>
-                    <p id="description4"></p>
-                </div>
-            </span>
-            <script src="portfolio.js"></script>
-    </section>
+    </div>
+
 </body>
 
 </html>

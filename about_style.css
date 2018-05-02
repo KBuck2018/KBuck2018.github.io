@@ -147,8 +147,8 @@ a:visited {
   background: -webkit-linear-gradient(white, #6a8094);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-top: 40px;
-  width: 100%;
+  margin: 40px auto 0;
+  width: 90%;
   color: white;
   background-color: rgba(0, 0, 0, 0.3);
   text-align: center;
